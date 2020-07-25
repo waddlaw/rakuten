@@ -8,7 +8,6 @@ module Rakuten.Endpoints.Ichiba
     , searchIchibaGenre
     ) where
 
-import           Data.Monoid      ((<>))
 import           Network.HTTP.Req (GET (..), JsonResponse, MonadHttp,
                                    NoReqBody (..), jsonResponse, req, (/:))
 import           Rakuten.Client

@@ -18,10 +18,10 @@ import           Data.Constraint
 import           Data.Default.Class    (Default (..))
 import           Data.Extensible
 import           Data.Functor.Identity (Identity (..))
-import           Data.Monoid           (Endo (..), (<>))
+import           Data.Monoid           (Endo (..))
 import           Data.String           (fromString)
 import           Data.Text             (Text)
-import           GHC.TypeLits          (KnownSymbol, symbolVal)
+import           GHC.TypeLits          (symbolVal)
 import           Network.HTTP.Req      (QueryParam, (=:))
 
 instance Default a => Default (Identity a) where
