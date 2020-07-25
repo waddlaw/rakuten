@@ -16,7 +16,6 @@ module Rakuten.Client (
 import           Control.Lens       hiding ((:>))
 import           Data.Default.Class (Default (def))
 import           Data.Extensible
-import           Data.Function      ((&))
 import           Data.Text          (Text)
 import           Network.HTTP.Req   (Option, Scheme (Https), Url, https, (/:),
                                      (=:))
