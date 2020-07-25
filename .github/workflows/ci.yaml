@@ -34,7 +34,7 @@ jobs:
     - name: Install dependencies
       run: |
         cabal update
-        cabal configure --disable-optimization --write-ghc-environment-files=always -j2
+        cabal configure --disable-optimization --write-ghc-environment-files=always -j2 --enable-tests
         cabal build --only-dependencies
 
     - name: Build
