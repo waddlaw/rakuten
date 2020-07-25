@@ -1,12 +1,7 @@
-resolver: lts-14.4
-
+resolver: lts-15.9
 packages:
 - .
 
 extra-deps:
-- constraints-0.11.1
-- extensible-0.6.1
-- http2-2.0.3
+- extensible-0.8
 - membership-0
-- text-1.2.4.0
-- warp-3.3.0
